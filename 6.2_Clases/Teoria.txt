@@ -1,0 +1,58 @@
+Clases:
+	Al igual que los objetos, pueden ser representaciones abstractas de cosas, o de cosas que existen en la 
+	vida real...
+Metodos:
+	Son funciones relacionadas a la clase, y cualquier variable que sea una instamcia de la clase
+	tendra esas funciones.
+
+Ejemplo:
+	las clases son como los moldes para hacer galletas.. Para definirlo hay que 
+	--
+	class Galleta {
+		constructor (botones, sabor) {
+			this.botones = botones;
+			this.sabor = sabor;
+			this.fechaCreacion = 'HOY'; "Supongamos"
+		}
+	}
+		
+Otro Ejemplo:
+	--
+	class Carro {
+			-Propiedades-
+		puertas
+		llantas
+		color
+		marca
+			-Metodos-
+		encenderCarro()
+		apagarCarro()
+		cambiarMarcha()
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+Notas:
+	1. Las clases empiezan con letras mayusculas siempre.
+	2. Son Como los objetos, tambien tienen propiedades.
+	3. fechaCreacion: debe ser automatica y debe decirnos cuando se creo la galleta.
+		OJO: El programador no debe colocar este dato de forma rigida, no debe ser un argumento,
+		debe ser algp automatico.
+	4. Las propiedades siguen las mismas reglas de los nombres de las variables.. un 
+		y para espacios usar guion bajo "_"
+	5. Sintaxis para las clases - 
+		> {} Dentro de las llaves, van las propiedades.
+		> Todas las clases tienen una funcion interna llamada 'Constructor'. Su funcion es decirle a la clase 
+		que cuando se cree una galleta se ejecutara primero esa funcion.
+		> La palabra 'THIS.' va a apunta a la misma clase. Con eso estamos diciendo que la 'galleta' en su propiedad 'botones' va a tener el valor que el usuario le mande por el argumento que 
+		tenga el mismo nombre
+		> 
